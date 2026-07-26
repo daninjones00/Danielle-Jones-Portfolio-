@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Keep this page out of search engines -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<title>Danielle N. Jones, PhD — Process Improvement Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAFAF8;
+    --ink:#1F2937;
+    --ink-soft:#5B6472;
+    --navy:#1F3864;
+    --teal:#3F6E66;
+    --line:#DCE1E6;
+    --card:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:64px 28px 100px;}
+
+  header{margin-bottom:44px;}
+  .name{
+    font-family:'Source Serif 4', serif;
+    font-weight:600;
+    font-size:clamp(28px, 4.2vw, 40px);
+    color:var(--navy);
+    margin:0 0 6px;
+    letter-spacing:-0.01em;
+  }
+  .role{
+    font-family:'Source Serif 4', serif;
+    font-style:italic;
+    font-size:19px;
+    color:var(--teal);
+    margin:0 0 18px;
+  }
+  .intro{
+    font-size:16px;
+    color:var(--ink-soft);
+    max-width:58ch;
+    margin:0;
+  }
+  .contact{
+    margin-top:20px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    color:var(--ink-soft);
+    letter-spacing:0.02em;
+  }
+  .contact a{color:var(--ink-soft); text-decoration:none; border-bottom:1px solid var(--line);}
+  .contact a:hover{color:var(--navy); border-color:var(--navy);}
+
+  .thread{position:relative; margin-top:56px;}
+  .thread::before{
+    content:"";
+    position:absolute;
+    left:15px; top:14px; bottom:14px;
+    width:1.5px;
+    background:linear-gradient(to bottom, var(--teal), var(--line) 85%);
+  }
+
+  .project{position:relative; padding-left:52px; margin-bottom:52px;}
+  .project:last-child{margin-bottom:0;}
+  .node{
+    position:absolute; left:0; top:2px;
+    width:32px; height:32px;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    font-weight:500;
+    background:var(--paper);
+    border:1.5px solid var(--teal);
+    color:var(--teal);
+  }
+  .node.done{background:var(--teal); color:#fff;}
+
+  .project-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:14px;}
+  .project-title{
+    font-family:'Source Serif 4', serif;
+    font-weight:600;
+    font-size:21px;
+    color:var(--navy);
+    margin:0;
+  }
+  .status{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--teal);
+  }
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    overflow:hidden;
+  }
+  .row{
+    display:grid;
+    grid-template-columns:120px 1fr;
+    border-top:1px solid var(--line);
+  }
+  .row:first-child{border-top:none;}
+  .row .label{
+    padding:14px 14px;
+    background:#F5F6F4;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    color:var(--navy);
+  }
+  .row .value{
+    padding:14px 16px;
+    font-size:14.5px;
+    color:var(--ink);
+  }
+  @media (max-width:520px){
+    .row{grid-template-columns:1fr;}
+    .row .label{padding-bottom:6px;}
+  }
+
+  footer{
+    margin-top:64px;
+    padding-top:24px;
+    border-top:1px solid var(--line);
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+  footer .certs{margin:0 0 8px;}
+  footer .note{font-style:italic; color:var(--ink-soft); opacity:0.8;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="name">Danielle N. Jones, PhD</p>
+    <p class="role">Process Improvement Portfolio</p>
+    <p class="intro">A summary of process improvement initiatives led across clinical research operations, compliance, and education — applying Lean Six Sigma methodology to regulated research environments.</p>
+    <p class="contact">Akron, OH &nbsp;·&nbsp; (319) 529-4117 &nbsp;·&nbsp; <a href="mailto:Daniellenjones93@gmail.com">Daniellenjones93@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/dnj00" target="_blank" rel="noopener">linkedin.com/in/dnj00</a></p>
+  </header>
+
+  <div class="thread">
+
+    <div class="project">
+      <div class="node done">1</div>
+      <div class="project-head">
+        <h2 class="project-title">Research Credentialing Process Redesign</h2>
+        <span class="status">Completed</span>
+      </div>
+      <div class="card">
+        <div class="row"><div class="label">Problem</div><div class="value">The institutional process for credentialing non-employee study team personnel and student researchers was manual, inconsistent, and difficult to scale, creating delays in research startup and gaps in compliance visibility.</div></div>
+        <div class="row"><div class="label">Approach</div><div class="value">Gathered Voice of Customer (VOC) data from stakeholders across the research community; mapped the existing workflow to identify bottlenecks and failure points.</div></div>
+        <div class="row"><div class="label">Actions</div><div class="value">Redesigned and automated the credentialing workflow; built ongoing performance metrics to track throughput and compliance; developed and rolled out training and communications to the entire research community; updated governing policies and SOPs.</div></div>
+        <div class="row"><div class="label">Impact</div><div class="value">Established a scalable, standardized credentialing process now used institution-wide, supporting 500+ applicants annually across Legal, IT, Regulatory, and Compliance stakeholders.</div></div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="node">2</div>
+      <div class="project-head">
+        <h2 class="project-title">FDA Submission Oversight Initiative</h2>
+        <span class="status">In Progress</span>
+      </div>
+      <div class="card">
+        <div class="row"><div class="label">Problem</div><div class="value">The institution lacked structured oversight of FDA-regulated, sponsor-investigator studies, creating risk to application quality and consistency of regulatory understanding among investigators.</div></div>
+        <div class="row"><div class="label">Approach</div><div class="value">Partnered with institutional leadership, legal, and regulatory specialists to assess gaps in the existing submission and oversight process.</div></div>
+        <div class="row"><div class="label">Actions</div><div class="value">Built a new submission tracking workflow and supporting policies; developed and delivered two education sessions for Sponsor-Investigators; authored two comprehensive guidance documents to improve application quality and regulatory understanding.</div></div>
+        <div class="row"><div class="label">Impact to date</div><div class="value">Improved consistency and quality of FDA submissions; strengthened Sponsor-Investigators' working knowledge of federally mandated responsibilities.</div></div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="node">3</div>
+      <div class="project-head">
+        <h2 class="project-title">Green Belt Capstone: Compliance&ndash;Education Alignment</h2>
+        <span class="status">In Progress · Expected March 2027</span>
+      </div>
+      <div class="card">
+        <div class="row"><div class="label">Problem</div><div class="value">Research education programming has not been systematically informed by compliance audit data, resulting in a disconnect between where noncompliance risk is highest and where education resources are targeted.</div></div>
+        <div class="row"><div class="label">Approach</div><div class="value">Applying DMAIC methodology to analyze audit findings data by department and noncompliance trend, identifying the highest-priority gaps.</div></div>
+        <div class="row"><div class="label">Actions</div><div class="value">Developing a targeted marketing and education strategy aligned to departments and trends with the highest compliance findings, to be piloted as part of Green Belt certification.</div></div>
+        <div class="row"><div class="label">Goal</div><div class="value">Reduce recurring compliance findings in targeted departments by aligning education investment with data-driven priority areas.</div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p class="certs">CCRP (SOCRA) &nbsp;·&nbsp; Lean Six Sigma Yellow Belt, Healthcare Operations &nbsp;·&nbsp; Lean Six Sigma Green Belt (in progress, expected March 2027)</p>
+    <p class="note">References and additional project detail available upon request.</p>
+  </footer>
+
+</div>
+</body>
+</html>
